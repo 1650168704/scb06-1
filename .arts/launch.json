@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "runner",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\runner.py",
+            "currentFileConfiguration": false,
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "addSourceRootsToPythonpath": true
+        },
+        {
+            "addSourceRootsToPythonpath": true,
+            "request": "launch",
+            "console": "internalConsole",
+            "jinja": true,
+            "python": "${command:python.interpreterPath}",
+            "currentFileConfiguration": true,
+            "stopOnEntry": false,
+            "redirectOutput": true,
+            "program": "${file}",
+            "env": {},
+            "type": "python",
+            "logToFile": false,
+            "args": [],
+            "cwd": "${fileDirname}",
+            "subProcess": false,
+            "justMyCode": true,
+            "pythonArgs": [],
+            "name": "Python: Current File",
+            "showReturnValue": true
+        }
+    ]
+}
